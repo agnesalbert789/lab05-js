@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Battery API | COMP1073 Client-Side JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+<h1>Battery API</h1>
+<dl id="battery">
+    <dt>Charge status:</dt>
+    <dd id="charge-status"></dd>
+    <dt>Charge level:</dt>
+    <dd>
+        <progress id="charge-meter" max="100" value="0"></progress>
+        <output id="charge-level"></output>
+        <img id="battery-image" />
+    </dd>
+</dl>
+<script src="js/battery.js"></script>
+</body>
+
+</html>
